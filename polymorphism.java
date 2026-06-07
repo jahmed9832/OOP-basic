@@ -13,14 +13,14 @@ class Calculator {
 // ২. Method Overriding (Runtime) এর উদাহরণ
 class ParentSound {
     void sound() {
-        System.out.println("প্রাণীটি ডাকছে...");
+        System.out.println("Calling ....");
     }
 }
 
 class Cat extends ParentSound {
     @Override
     void sound() { // প্যারেন্ট ক্লাসের মেথডকে ওভাররাইড করা হলো
-        System.out.println("বিড়ালটি ম্যাও ম্যাও করছে।");
+        System.out.println("Meaw Meaw ..");
     }
 }
 public class polymorphism {
@@ -32,6 +32,6 @@ public class polymorphism {
 
         // Overriding টেস্ট
         ParentSound myCat = new Cat();
-        myCat.sound(); // আউটপুট: বিড়ালটি ম্যাও ম্যাও করছে।
+        myCat.sound(); // আউটপুট: Meaw Meaw
     }
 }
