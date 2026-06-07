@@ -6,7 +6,7 @@ class Car {
 
     // Method (কাজ বা আচরণ)
     void drive() {
-        System.out.println(brand + " গাড়িটি " + speed + " km/h গতিতে চলছে।");
+        System.out.println(brand + " Car running at " + speed + " km/h speed.");
     }
 }
 
