@@ -7,7 +7,7 @@ class BankAccount {
         if (amount > 0) {
             balance += amount;
         } else {
-            System.out.println("অবৈধ অ্যামাউন্ট!");
+            System.out.println("Invalid!");
         }
     }
 
@@ -23,6 +23,6 @@ public class encapsulation {
         // account.balance = 5000; -> এভাবে সরাসরি অ্যাক্সেস করলে এরর আসবে।
         
         account.deposit(5000); // সঠিক নিয়ম
-        System.out.println("ব্যালেন্স: " + account.getBalance()); // আউটপুট: ব্যালেন্স: 5000.0
+        System.out.println("Balance : " + account.getBalance()); // আউটপুট: ব্যালেন্স: 5000.0
     }
 }
