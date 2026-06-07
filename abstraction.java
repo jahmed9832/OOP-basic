@@ -5,7 +5,7 @@ abstract class Vehicle {
 
     // Regular Method (সাধারণ মেথডও থাকতে পারে)
     void stop() {
-        System.out.println("যানবাহনটি থেমে গেল।");
+        System.out.println("Vehical stopped!");
     }
 }
 
@@ -13,7 +13,7 @@ class Bike extends Vehicle {
     // Abstract মেথডের আসল বডি এখানে দেওয়া হলো
     @Override
     void startEngine() {
-        System.out.println("বাইকটি সেলফ স্টার্ট দিয়ে চালু হলো।");
+        System.out.println("Self start.");
     }
 }
 public class abstraction {
