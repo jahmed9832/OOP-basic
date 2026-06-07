@@ -1,14 +1,14 @@
 // Parent Class (Super Class)
 class Animal {
     void eat() {
-        System.out.println("এই প্রাণীটি খাবার খায়।");
+        System.out.println("This animal is eating!");
     }
 }
 
 // Child Class (Sub Class) যা Animal-কে ইনহেরিট করেছে
 class Dog extends Animal {
     void bark() {
-        System.out.println("কুকুরটি ঘেউ ঘেউ করছে।");
+        System.out.println("Dog is barking!");
     }
 }
 public class inheritance {
